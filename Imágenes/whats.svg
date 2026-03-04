@@ -1,0 +1,26 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fondo circular -->
+  <circle cx="100" cy="100" r="90" fill="#5C7FA3"></circle>
+
+  <!-- Brillo superior sutil -->
+  <ellipse cx="100" cy="70" rx="65" ry="35" fill="#6E93B8" opacity="0.35"></ellipse>
+
+  <!-- Burbuja principal -->
+  <circle cx="100" cy="105" r="55" fill="#FFFFFF"></circle>
+
+  <!-- Cola de burbuja -->
+  <path d="M75 150 L70 175 L95 160 Z" fill="#FFFFFF"></path>
+
+  <!-- Teléfono simplificado -->
+  <path d="M90 95 
+           Q85 105 95 115 
+           Q105 125 115 120 
+           L125 130 
+           Q115 145 95 135 
+           Q75 125 80 95 Z" fill="#5C7FA3"></path>
+
+  <!-- Acento amarillo minimal -->
+  <circle cx="155" cy="55" r="6" fill="#F2C94C"></circle>
+
+</svg>

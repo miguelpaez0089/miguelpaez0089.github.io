@@ -1,0 +1,31 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fondo circular -->
+  <circle cx="100" cy="100" r="90" fill="#5C7FA3"></circle>
+
+  <!-- Brillo superior sutil -->
+  <ellipse cx="100" cy="70" rx="70" ry="40" fill="#6E93B8" opacity="0.35"></ellipse>
+
+  <!-- Cabeza Octocat simplificada -->
+  <circle cx="100" cy="105" r="45" fill="#FFFFFF"></circle>
+
+  <!-- Orejas -->
+  <path d="M65 70 L85 95 L55 95 Z" fill="#FFFFFF"></path>
+  <path d="M135 70 L115 95 L145 95 Z" fill="#FFFFFF"></path>
+
+  <!-- Ojos -->
+  <circle cx="85" cy="105" r="6" fill="#5C7FA3"></circle>
+  <circle cx="115" cy="105" r="6" fill="#5C7FA3"></circle>
+
+  <!-- Sonrisa -->
+  <path d="M85 120 Q100 135 115 120" stroke="#5C7FA3" stroke-width="4" fill="none" stroke-linecap="round"></path>
+
+  <!-- Tentáculos simplificados -->
+  <path d="M75 140 Q70 165 85 160" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round"></path>
+  <path d="M100 145 Q100 170 100 160" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round"></path>
+  <path d="M125 140 Q130 165 115 160" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round"></path>
+
+  <!-- Acento amarillo minimal -->
+  <circle cx="155" cy="55" r="6" fill="#F2C94C"></circle>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fondo redondeado -->
+  <rect x="10" y="10" width="180" height="180" rx="40" fill="#5C7FA3"></rect>
+
+  <!-- Brillo superior sutil -->
+  <rect x="10" y="10" width="180" height="90" rx="40" fill="#6E93B8" opacity="0.35"></rect>
+
+  <!-- Letra f simplificada -->
+  <path d="M115 75 
+           H140 
+           V55 
+           H120 
+           Q95 55 95 85 
+           V100 
+           H75 
+           V120 
+           H95 
+           V160 
+           H120 
+           V120 
+           H140 
+           L145 100 
+           H120 
+           V90 
+           Q120 75 135 75 Z" fill="#FFFFFF"></path>
+
+  <!-- Acento amarillo minimal -->
+  <circle cx="155" cy="50" r="6" fill="#F2C94C"></circle>
+
+</svg>

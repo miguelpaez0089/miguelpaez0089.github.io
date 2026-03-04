@@ -1,0 +1,32 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fondo redondeado -->
+  <rect x="10" y="10" width="180" height="180" rx="40" fill="#5C7FA3"></rect>
+
+  <!-- Brillo sutil -->
+  <rect x="10" y="10" width="180" height="90" rx="40" fill="#6E93B8" opacity="0.35"></rect>
+
+  <!-- Punto de la i -->
+  <circle cx="70" cy="75" r="10" fill="#FFFFFF"></circle>
+
+  <!-- Letra i -->
+  <rect x="60" y="90" width="20" height="60" rx="8" fill="#FFFFFF"></rect>
+
+  <!-- Letra n -->
+  <path d="M105 90 
+           L125 90 
+           L125 100 
+           Q135 88 155 95 
+           Q170 102 170 125 
+           L170 150 
+           L150 150 
+           L150 125 
+           Q150 110 135 112 
+           Q125 114 125 125 
+           L125 150 
+           L105 150 Z" fill="#FFFFFF"></path>
+
+  <!-- Detalle acento amarillo minimal -->
+  <circle cx="160" cy="50" r="6" fill="#F2C94C"></circle>
+
+</svg>
