@@ -1,299 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- el titulo de la pestaña que se muestra -->
-    <title>Presentacion</title>
-    <!-- se pone la imagen que se muestra en la pestaña-->
-    <link rel="shortcut icon" href="Imagenes/mP.png" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
-</head>
-<!------------------------------------------------------------------------------------------------>
-<body>
-    <header>
-        <nav>
-            <!-- se agraga el indice para movernos -->
-            <a href="#Exper">Experiencia</a>
-            <a href="#Cursos">Cursos</a>
-            <a href="#Trayctoria">Trayectoria</a>
-            <a href="#Acerca">Acerca de mi</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-        <section class="textos-header">
-            <!-- se pone el texto principal de la pagina-->
-            <h1>Conóceme Miguel Páez</h1>
-            <h2>Ingeniero, UNAM</h2>
-        </section>
-        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-50.60,10.37 C295.33,155.43 289.69,-92.26 562.83,65.62 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portafolio profesional de Miguel Paez">
+        <title>Portafolio | Miguel Páez</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container nav-container">
+                <h1 class="logo">Miguel Páez</h1>
+                <nav>
+
+                    <button class="menu-toggle" aria-label="Abrir menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <ul class="nav-menu">
+                        <li><a href="sobre_mi.html">Sobre mí</a></li>
+                        <li><a href="portafolio.html">Mis proyectos</a></li>
+                        <li><a href="trayectoria.html">Habilidades</a></li>
+                        <li><a href="#contact">Contacto</a></li> 
+                    </ul>
+                    <!--
+                      <a href="#" class="btn btn-primary">Contacto</a> </li>
+                    </ul>
+                    -->
+                </nav>
+            </div>
         </header>
-    <main>
-        <!-- la primer seccion de la pagina principal  -->
-        <section class="contenedor experi-nosotros">
-            <h2 id="Exper" class="titulo">Experiencia</h2>
-            <div class="experiencia-contenedor">
-                <img src="Imagenes/ilustracion2.svg" alt="" class="imagen-about-us">
-                <div class="contenido-textos">
 
-                    <h3><span>1</span>Especialista Suscripción - <i>GNP</i></h3> <!-- el span se usara para darle un diseño especifico a lo de adentro-->
-                    <p>
-                        <ul>
-                            <li>Análisis técnico de riesgos para evaluación y aceptación de negocios.</li>
-                            <li>Revisión y estructuración de información financiera y técnica.</li>
-                            <li>Evaluación de exposición al riesgo para soporte en toma de decisiones.</li>
-                            <li>Generación de reportes y documentación técnica.</li>
-                            <li>Uso de sistemas internos para gestión y seguimiento de operaciones. </li> 
-                        </ul>
-                    </p>
-
-                    <h3><span>2</span>Analista Reaseguro - <i>GNP</i></h3> <!-- el span se usara para darle un diseño especifico a lo de adentro-->
-                    <p>
-                        <ul>
-                            <li>Preparación y estructuración de información técnica para negociación con reaseguradores.</li>
-                            <li>Evaluación de condiciones contractuales y exposición de riesgo.</li>
-                            <li>Coordinación con brokers internacionales (AON, Guy Carpenter).</li>
-                            <li>Seguimiento y administración de colocaciones facultativas.</li>
-                        </ul>
-                    </p>
-
-                    <h3><span>3</span>Casa Materiales </h3> <!-- el span se usara para darle un diseño especifico a lo de adentro-->
-                    <p>
-                        <ul>
-                            <li>Atención y asesoramiento al cliente sobre materiales disponibles según sus necesidades.</li>
-                            <li>Orientación en la selección adecuada de productos para distintos proyectos.</li>
-                            <li>Gestión de cobros de manera precisa y eficiente.</li>
-                            <li>Control básico de inventario y disponibilidad de materiales.</li>
-                            <li>Enfoque en la satisfacción del cliente y servicio de calidad</li>
-                        </ul>
-                    </p>
-
-                    <h3><span>4</span>Curso Pumitas - <i>UNAM</i></h3> <!-- el span se usara para darle un diseño especifico a lo de adentro-->
-                    <p>
-                        <ul>
-                            <li>Supervisión y cuidado constante de alumnos en entornos públicos y privados.</li>
-                            <li>Planificación y coordinación de actividades recreativas y formativas.</li>
-                            <li>Capacitación e instrucción de nuevos monitores en la ejecución de actividades.</li>
-                            <li>Comunicación efectiva con padres y tutores sobre desempeño y seguimiento de los estudiantes.</li>
-                            <li>Gestión de grupos asegurando seguridad, organización y cumplimiento de objetivos</li>
-                        </ul>
-                    </p>
-
-                    <h3><span>5</span>Programa Seisan - <i>Servicio Sismológico Nacional</i></h3> <!-- el span se usara para darle un diseño especifico a lo de adentro-->
-                    <p>
-                        <ul>
-                            <li>Procesamiento y análisis de datos sísmicos.</li>
-                            <li>Desarrollo de rutinas en entorno Linux para automatización.</li>
-                            <li>Limpieza y estructuración de datos.</li>
-                            <li>Generación de reportes técnicos.</li>
-                        </ul>
-                    </p>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="intro">Hola, soy <strong>Mike</strong>,</p>
+                    <h2>Ingeniero</h2>
+                    <p class="btn btn-primary">Me divierto mientras construyo el futuro.</p><br>  <!-- class="description" -->
+                </div>
+                <div class="hero-image">
+                    <img src="Imágenes/fotoanimada.jpeg" alt="Ilustración Animada">
                 </div>
             </div>
         </section>
 
-        <!-- es una seccion de la pagina principal que divide el portafolio -->
-        <section class="cursos">
-            <div class="contenedor">
-               <h2 id="Cursos" class="titulo">Certificaciones</h2> 
-               <div class="galeria-curs">
-                <!-- los cursos que se mostrara de la pagina en la parte de portafolio-->
-                <!--Seisan 1-->
-                <div class="imagen-port">
-                    <img src="Imagenes/seisan.png" alt="">
-                    <div class="hover-galeria">
-                        <img src="Imagenes/icono1.png" alt="">
-                        <p>
-                            Seisan Básico y Avanzado <br/>
-                            40hrs 
-                        </p>
-
-                    </div>
-                </div>
-                <!--FrondEnd 2-->
-                <div class="imagen-port">
-                    <img src="Imagenes/Desarrolloweb.jpg" alt="">
-                    <div class="hover-galeria">
-                        <img src="Imagenes/icono1.png" alt="">
-                        <p>
-                            Desarrollo Web - FrontEnd<br/>
-                            30hrs 
-                        </p>
-                    </div>
-                </div>
-                <!--Matlab 3-->
-                <div class="imagen-port">
-                    <img src="Imagenes/matlab.jpg" alt="">
-                    <div class="hover-galeria">
-                        <img src="Imagenes/icono1.png" alt="">
-                        <p>
-                            Matlab/Octave, UNAM <br/>
-                            10hrs 
-                        </p>
-                    </div>
-                </div>
-                <!--Python 4-->
-                <div class="imagen-port">
-                    <img src="Imagenes/python.jpg" alt="">
-                    <div class="hover-galeria">
-                        <img src="Imagenes/icono1.png" alt="">
-                        <p>
-                            Python 3: Análisis de datos<br/>
-                            7hrs 
-                        </p>
-                    </div>
-                </div>
-                <!--Bash 5-->
-                <div class="imagen-port">
-                    <img src="Imagenes/bash.jpg" alt="">
-                    <div class="hover-galeria">
-                        <img src="Imagenes/icono1.png" alt="">
-                        <p>
-                            Bash Scripting<br/>
-                            7hrs 
-                        </p>
-                    </div>
-                </div>
-                <!--SQL 6-->
-                <div class="imagen-port">
-                    <img src="Imagenes/sql.jpg" alt="">
-                    <div class="hover-galeria">
-                        <img src="Imagenes/icono1.png" alt="">
-                        <p>
-                            SQL: Base de Datos<br/>
-                            4hrs 
-                        </p>
-                    </div>
-                </div>
-                <!--Pyhton con Frameworks 7-->
-                <div class="imagen-port">
-                    <img src="Imagenes/pythonfrem.jpg" alt="">
-                    <div class="hover-galeria">
-                        <img src="Imagenes/icono1.png" alt="">
-                        <!--texto que se pondra al colocarce en la imagen-->
-                        <p>
-                            Python con Frameworks<br/>
-                            70hrs 
-                        </p>
-                    </div>
-                </div>
-                
-               </div>
+        <section class="features container">
+            <div class="card">
+                <img class="icono" src="Imágenes/sobremi.png" alt="Sobre mí">
+                <a href="sobre_mi.html"><h3>Sobre mí</h3></a>
+                <p>Mis pasiones</p>
             </div>
+
+            <div class="card">
+                <img class="icono" src="Imágenes/portafolio.png" alt="Portafolio">
+                <a href="portafolio.html"><h3>Portafolio</h3></a>   <!-- <a href="sobre_mi.html" target="_blank"><h3>Portafolio</h3></a>    #Para abrir en una nueva pagina -->
+                <p>Mis proyectos</p>
+            </div> 
+
+            <div class="card">
+                <img class="icono" src="Imágenes/trayectoria.png" alt="Contacto">
+                <a href="trayectoria.html"><h3>Trayectoria</h3></a>
+                <p>Conóceme mis habilidades</p>
+            </div>
+
         </section>
 
-        <!-- sigiente seccion Trayectoria cliente contenedor-->
-        <section class="contenedor">
-            <h2 id="Trayctoria" class="titulo">Trayectoria</h2>
-            <div class="cards">
-                <!-- tarjeta que se mostrara en esta seccion-->
-                <!--tarjeta 1-->
-                <div class="card">
-                    <img src="Imagenes/ingenieria.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Facultad de Ingeniería ,UNAM</h4>
-                        <p>Ing. Geofísico con modulo en Geotecnia</p>
+        <section class="skills">
+            <div class="container">
+                <h2>Algunas de mis habilidades</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img class="skill-img" src="Imágenes/hmtl-css.png" alt="HTML y CSS">
+                        <p>HTML & CSS</p>
                     </div>
-                </div>
-                <!--tarjeta 2-->
-                <div class="card">
-                    <img src="Imagenes/cch.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>CCH Sur, UNAM</h4>
-                        <p>Bachillerato concluido, con certificado</p>
+
+                    <div class="skill-card">
+                        <img class="skill-img" src="Imágenes/python.png" alt="JavaScript">
+                        <p>Pyhton</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img class="skill-img" src="Imágenes/sql.png" alt="React">
+                        <p>SQL</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img class="skill-img" src="Imágenes/microsoft.png" alt="Node.js">
+                        <p>Paqueteria Microsoft</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!--ultima sseccion Acerca de mi-->
-        <section class="about-services">
-            <div class="contenedor">
-                <h2 id="Acerca" class="titulo">Acerca de mi</h2>
-                <div class="servicio-cont">
-                    <!-- nuestro ultimos segmento-->
-                    <!--parte 1-->
-                    <div class="servicio-ind">
-                        <img src="Imagenes/ilustracion1.svg" alt="">
-                        <h3>Habilidades</h3>
-                        <p>
-                            <ul>
-                                <li>Sistema/Paqueterías <br/>
-                                    <b>(</b>Microsoft Office, MySQL, Linux, VSC, AutoCAD, Seisan<b>)</b>
-                                </li>
-                                <li>Idiomas de codificación <br/>
-                                    <b>(</b>Python, SQL, Bash, Matlab, HTML, CSS<b>)</b>
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
-                    <!--parte 2-->
-                    <div class="servicio-ind">
-                        <img src="Imagenes/ilustracion4.svg" alt="">
-                        <h3>Aptitudes</h3>
-                        <p>
-                            <ul>
-                                <li>Habilidades Matemáticas</li>
-                                <li>Organización y Planificación</li>
-                                <li>Trabajo bajo presión</li>
-                                <li>Rápido Aprendizaje</li>
-                                <li>Habilidades pedagógicas</li>
-                                <li>Creatividad</li>
-                                <li>Liderazgo</li>
-                                <li>Empatía</li>
-                                <li>Trabajo en Grupo</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <!--parte 3-->
-                    <div class="servicio-ind">
-                        <img src="Imagenes/ilustracion3.svg" alt="">
-                        <h3>Intereses</h3>
-                        <p>
-                            <ul>
-                                <li>Viajar</li>
-                                <li>Música</li>
-                                <li>Leer</li>
-                                <li>Dibujo</li>
-                                <li>Fotografía</li>
-                                <li>Deportes</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
+        <section class="cta" id="contact">
+            <div class="container">
+                <h2>Me gustaria formar parte de tu equipo.</h2>
+                <br>
+                <a href="Documentos/Miguel - CV.pdf" target="_blank" class="btn btn-primary">Contactame</a>
             </div>
         </section>
-    </main>
 
+        <footer class="footer">
+            <div class="container footer-content">
+                <div class="social-icons">
+                    <a href=""><img src="Imágenes/git.svg" alt="GitHub"></a>
+                    <a href=""><img src="Imágenes/link.svg" alt="LinkedIn"></a>
+                    <a href=""><img src="Imágenes/facebook.svg" alt="Facebook"></a>
+                </div>
+                <p>© 2026 Miguel Páez. Todos los derechos reservados.</p>
+            </div>
+        </footer>
 
-    <!-- agragamos un pie de pagina para agregar nustro datos de contacto-->
-    <footer>
-        <div id="contacto" class="contenedor-footer">
-            <!-- informacion 1 -->
-            <div class="content-foo">
-                <h4>Telefono</h4>
-                <p>5658924421</p>
-            </div>
-            <!-- informacion 2 -->
-            <div class="content-foo">
-                <h4>Email</h4>
-                <p>miguelpaez0089@gmail.com</p>
-            </div>
-            <!-- informacion 3 -->
-            <div class="content-foo">
-                <h4>Localidad</h4>
-                <p>CDMX, Xochimilco</p>
-            </div>
-            <div class="content-foo">
-                <h4>Mas</h4>
-                <a href="Documentos/Miguel Ángel Páez Flores - C.pdf" target="_blank">Curriculum</a>
-            </div>
-        </div>
-        <h2 class="titulo-final">Miguel Ángel Páez Flores | Ingeniería, UNAM</h2>
-        <h6 class="pie">Las imágenes e ilustraciones colocadas anteriormente no todas son de mí pertenecía (obtenidas de internet), se les da credito él a los desarrolladores de ellas según corresponda. Página en constante actualización...</h6>
-    </footer>
-</body>
+        <script src="scrit.js"></script>
+
+    </body>
 </html>
 
 
