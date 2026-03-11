@@ -12,24 +12,43 @@
         <header class="header">
             <div class="container nav-container">
                 <h1 class="logo">Miguel Páez</h1>
-                <nav>
 
-                    <button class="menu-toggle" aria-label="Abrir menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
+                <nav class="navbar">
+
+                    <label class="label_hamburguesa" for="menu_hamburguesa">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                        width="35"
+                        height="35"
+                        fill="currentColor"
+                        class="list_icon"
+                        viewBox="0 0 16 16">
+
+                        <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </label>
+
+                    <input type="checkbox" id="menu_hamburguesa" class="menu_hamburguesa">
 
                     <ul class="nav-menu">
-                        <li><a href="sobre_mi.html">Sobre mí</a></li>
-                        <li><a href="portafolio.html">Mis proyectos</a></li>
-                        <li><a href="trayectoria.html">Habilidades</a></li>
-                        <li><a href="#contact">Contacto</a></li> 
+
+                        <li class="li_links">
+                        <a href="Pestanas/portafolio.html">Sobre mí</a>
+                        </li>
+
+                        <li class="li_links">
+                        <a href="Pestanas/portafolio.html">Mis proyectos</a>
+                        </li>
+
+                        <li class="li_links">
+                        <a href="Pestanas/trayectoria.html">Habilidades</a>
+                        </li>
+
+                        <li class="li_links">
+                        <a href="#contact">Contacto</a>
+                        </li>
                     </ul>
-                    <!--
-                      <a href="#" class="btn btn-primary">Contacto</a> </li>
-                    </ul>
-                    -->
+
                 </nav>
             </div>
         </header>
@@ -80,7 +99,7 @@
 
                     <div class="skill-card">
                         <img class="skill-img" src="Imágenes/python.png" alt="JavaScript">
-                        <p>Pyhton</p>
+                        <p>Python</p>
                     </div>
 
                     <div class="skill-card">
@@ -114,9 +133,6 @@
                 <p>© 2026 Miguel Páez. Todos los derechos reservados.</p>
             </div>
         </footer>
-
-        <script src="scrit.js"></script>
-
     </body>
 </html>
 
